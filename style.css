@@ -1,0 +1,112 @@
+
+/* couleur grise */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #757575;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 1px 1px #1CBAFF;
+}
+
+.card-country {
+  padding: 30px;
+}
+.icon {
+  font-size: 30px !important;
+}
+
+#img-profile {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #1CBAFF;
+  box-shadow: 10px;
+}
+
+
+/* bleu ciel : background-color: #1CBAFF;
+/* bleu foncé */
+
+#profession {
+  color: #1CBAFF;
+}
+
+h1, h2 {
+  color: #0b4f6c;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1CBAFF;
+}
+
+h3 {
+  color: #1CBAFF;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.email-design {
+  color: #1CBAFF;
+}
+/* bleu clair */
+/* color: #1CBAFF;
+
+/* vert */
+/* #20bf55
+
+/* blanc */
+/*#fbfbff
+
+
+
+
